@@ -12,6 +12,36 @@
         android:theme="@style/Theme.ECommApp"
         tools:targetApi="31">
         <activity
+            android:name=".PaymentConfirm"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentPage"
+            android:exported="false" />
+        <activity
+            android:name=".OilPage"
+            android:exported="false" />
+        <activity
+            android:name=".SugarPage"
+            android:exported="false" />
+        <activity
+            android:name=".PulsesPage"
+            android:exported="false" />
+        <activity
+            android:name=".BottomLayout"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaqActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignInPage"
             android:exported="false" />
         <activity
